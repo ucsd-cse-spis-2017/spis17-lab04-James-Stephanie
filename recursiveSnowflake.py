@@ -24,4 +24,5 @@ def snowflakeSide(t, sideLength, levels):
     
 if __name__ == "__main__":
     t = turtle.Turtle()
+    t.speed(0)
     snowflake(t, 280, 4)
